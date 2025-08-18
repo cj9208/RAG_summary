@@ -23,6 +23,7 @@ This repo is to summarize relevant pages and repos that are related to RAG
 | MinerU | [github](https://opendatalab.github.io/MinerU/)
 | pypdf | [github](https://github.com/py-pdf/pypdf)
 | PyMuPDF | [github](https://github.com/pymupdf/PyMuPDF)
+| MinerU | [github](https://github.com/opendatalab/MinerU)
 | Mistral OCR| [offical page](https://mistral.ai/news/mistral-ocr)
 | olm OCR | [github](https://github.com/allenai/olmocr)
 | PaddleOCR | [github](https://github.com/PaddlePaddle/PaddleOCR)
@@ -74,7 +75,7 @@ This repo is to summarize relevant pages and repos that are related to RAG
 | 2507 | DeepSieve | [Arixv](https://arxiv.org/abs/2507.22050)
 | 2506 | Agentic large language models improve retrieval-based radiology question answering | [Arxiv](https://arxiv.org/pdf/2508.00743)
 | 2507 | SemRAG | [arxiv](https://arxiv.org/pdf/2507.21110)
-| 2507 | RAG-Anything | [github](https://github.com/HKUDS/RAG-Anything)
+| 2410 | RAG-Anything | [github](https://github.com/HKUDS/RAG-Anything)
 |  | MemAgent | [github](https://github.com/BytedTsinghua-SIA/MemAgent)
 | | graphRAG | [github](https://github.com/microsoft/graphrag)
 | 2506 | memvid | [github](https://github.com/Olow304/memvid) | Memvid compresses an entire knowledge base into MP4 files while keeping millisecond-level semantic search
@@ -102,4 +103,5 @@ This repo is to summarize relevant pages and repos that are related to RAG
 |RAG techniques|[github](https://github.com/NirDiamant/RAG_Techniques)|
 | 开源工具全家桶，实战总结，落地技术选型 | [link](https://www.xiaohongshu.com/explore/6807c26c000000001d0242f1?app_platform=android&ignoreEngage=true&app_version=8.94.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBrnuw9M3TKKHmh51KCDVCqespfZMlr7U-XAuVlTmt0KA=&author_share=1&xhsshare=WeixinSession&shareRedId=N0o4RTRHNU02NzUyOTgwNjY0OThGOjY7&apptime=1754375009&share_id=ea20ea452df84d88a122ff85f3dff592&share_channel=wechat) |
 | 总结！企业级RAG系统PDF解析工具！ | [link](https://www.xiaohongshu.com/explore/680fa4e4000000000e006567?app_platform=android&ignoreEngage=true&app_version=8.94.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBy4faorZqbjvw01M4DcK27S4j_p_QPbMtMWjlcTaZnWI=&author_share=1&xhsshare=WeixinSession&shareRedId=N0o4RTRHNU02NzUyOTgwNjY0OThGOjY7&apptime=1754375059&share_id=97c7e2ede8a7400e909e55a0eff6c687&share_channel=wechat)|
-
+| 
+A Survey of self-evolving agents: on path to Artificial Super Intelligence   | [arxiv](https://arxiv.org/pdf/2507.21046)|
