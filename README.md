@@ -16,6 +16,7 @@ This repo is to summarize relevant pages and repos that are related to RAG
 |--------------|-------| -------|
 |RAG Challenge Winner Solution| [github](https://github.com/IlyaRice/RAG-Challenge-2) |
 | Agentic Document Extraction | [github](https://github.com/landing-ai/agentic-doc) |
+| data juicer by alibaba| [github](https://github.com/modelscope/data-juicer)
 | DocETL | [github](https://github.com/ucbepic/docetl) |
 | PDF-Extract-Kit | [github](https://github.com/opendatalab/PDF-Extract-Kit)
 | LangExtract by Google | [github](https://github.com/google/langextract)
@@ -60,6 +61,7 @@ This repo is to summarize relevant pages and repos that are related to RAG
 |GenAI Processors Library by Google | [github](https://github.com/google-gemini/genai-processors) | The concept of Processor provides a common abstraction for Gemini model calls and increasingly complex behaviors built around them, accommodating both turn-based interactions and live streaming.
 | Qwen Agent | [github](https://github.com/QwenLM/Qwen-Agent)
 | WebAgent by Tongyi Lab | [github](https://github.com/Alibaba-NLP/WebAgent)
+| open deep research by langchain| [github](https://github.com/langchain-ai/open_deep_research)
 | ragflow | [github](https://github.com/infiniflow/ragflow)
 |BMad-Method |[github](https://github.com/bmadcode/BMAD-METHOD) | A Universal AI Agent Framework
 |tooluse| [github](https://github.com/BeautyyuYanli/tooluser) | Enable tool-use ability for any LLM model (DeepSeek V3/R1, etc.) 
