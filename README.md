@@ -12,37 +12,35 @@ This repo is to summarize relevant pages and repos that are related to RAG
 ## Data Preparation 
 ### Extraction and Parsing
 
-| Tool/Project | Links | Description |
-|--------------|-------| -------|
-|RAG Challenge Winner Solution| [github](https://github.com/IlyaRice/RAG-Challenge-2) |
-| Agentic Document Extraction | [github](https://github.com/landing-ai/agentic-doc) |
-| data juicer by alibaba| [github](https://github.com/modelscope/data-juicer)
-| DocETL | [github](https://github.com/ucbepic/docetl) |
-| PDF-Extract-Kit | [github](https://github.com/opendatalab/PDF-Extract-Kit)
-| LangExtract by Google | [github](https://github.com/google/langextract)
-| deepdoc | [github](https://github.com/infiniflow/ragflow/tree/main/deepdoc)
-| MinerU | [github](https://opendatalab.github.io/MinerU/)
-| pypdf | [github](https://github.com/py-pdf/pypdf)
-| PyMuPDF | [github](https://github.com/pymupdf/PyMuPDF)
-| MinerU | [github](https://github.com/opendatalab/MinerU)
-| Mistral OCR| [offical page](https://mistral.ai/news/mistral-ocr)
-| olm OCR | [github](https://github.com/allenai/olmocr)
-| PaddleOCR | [github](https://github.com/PaddlePaddle/PaddleOCR)
-| PP-StructreV3 | [official page](http://www.paddleocr.ai/main/en/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html), [arxiv](https://arxiv.org/abs/2210.05391)
-| unstructrued | [github](https://github.com/Unstructured-IO/unstructured)
-| dots.ocr | [github](https://github.com/rednote-hilab/dots.ocr)
-| docling | [github](https://github.com/docling-project/docling)
-| maker | [github](https://github.com/datalab-to/marker)
-| nougat | [github](https://github.com/facebookresearch/nougat)
-| GOT-OCR | [github](https://github.com/Ucas-HaoranWei/GOT-OCR2.0)
-| SmolDocling OCR | [github](https://github.com/AIAnytime/SmolDocling-OCR-App)
-| EasyOCR | [github](https://github.com/JaidedAI/EasyOCR)
-| surya | [github](https://github.com/datalab-to/surya)
-| LayoutLMv3 | [github](https://github.com/microsoft/unilm/tree/master/layoutlmv3)
-| DocLayout-YOLO| [github](https://github.com/opendatalab/DocLayout-YOLO) 
-| LatexOCR| [github](https://github.com/lukas-blecher/LaTeX-OCR)
-| RapidTable| [github](https://github.com/RapidAI/RapidTable) |
-| DataFlow| [github](https://github.com/OpenDCAI/DataFlow), [document](https://opendcai.github.io/DataFlow-Doc/zh/) | Data-centric AI system
+| format /method | Tool/Project | Links | Description |
+| -------|--------------|-------| -------|
+| pdf  | PyMuPDF | [github](https://github.com/pymupdf/PyMuPDF) | can read fonts
+| | MinerU | [github](https://github.com/opendatalab/MinerU) | using vlm to help extract tables
+|| Agentic Document Extraction | [github](https://github.com/landing-ai/agentic-doc) |
+| | PDF-Extract-Kit | [github](https://github.com/opendatalab/PDF-Extract-Kit)
+| | pypdf | [github](https://github.com/py-pdf/pypdf)
+|OCR | Mistral OCR| [offical page](https://mistral.ai/news/mistral-ocr)
+|| olm OCR | [github](https://github.com/allenai/olmocr)
+|| PaddleOCR | [github](https://github.com/PaddlePaddle/PaddleOCR)
+|| dots.ocr | [github](https://github.com/rednote-hilab/dots.ocr)
+|| GOT-OCR | [github](https://github.com/Ucas-HaoranWei/GOT-OCR2.0)
+|| SmolDocling OCR | [github](https://github.com/AIAnytime/SmolDocling-OCR-App)
+|| EasyOCR | [github](https://github.com/JaidedAI/EasyOCR)
+|| LatexOCR| [github](https://github.com/lukas-blecher/LaTeX-OCR)
+|others| data juicer by alibaba| [github](https://github.com/modelscope/data-juicer)
+|| DocETL | [github](https://github.com/ucbepic/docetl) |
+|| LangExtract by Google | [github](https://github.com/google/langextract)
+|| deepdoc | [github](https://github.com/infiniflow/ragflow/tree/main/deepdoc)
+|| PP-StructreV3 | [official page](http://www.paddleocr.ai/main/en/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html), [arxiv](https://arxiv.org/abs/2210.05391)
+|| unstructrued | [github](https://github.com/Unstructured-IO/unstructured)
+|| docling | [github](https://github.com/docling-project/docling)
+|| maker | [github](https://github.com/datalab-to/marker)
+|| nougat | [github](https://github.com/facebookresearch/nougat)
+|| surya | [github](https://github.com/datalab-to/surya)
+|| LayoutLMv3 | [github](https://github.com/microsoft/unilm/tree/master/layoutlmv3)
+|| DocLayout-YOLO| [github](https://github.com/opendatalab/DocLayout-YOLO) 
+|| RapidTable| [github](https://github.com/RapidAI/RapidTable) |
+|| DataFlow| [github](https://github.com/OpenDCAI/DataFlow), [document](https://opendcai.github.io/DataFlow-Doc/zh/) | Data-centric AI system
 
 
 
@@ -85,7 +83,7 @@ This repo is to summarize relevant pages and repos that are related to RAG
 
 
 ## Courses and Learning Resouces
-
+* [RAG Challenge Winner Solution](https://github.com/IlyaRice/RAG-Challenge-2) |
 * [Huggingface Daily papers](https://huggingface.co/papers/week/2025-W30)
 * [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
 * [gemini fullstack langgraph quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart)
