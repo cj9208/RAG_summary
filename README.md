@@ -8,6 +8,9 @@ This repo is to summarize relevant pages and repos that are related to RAG
     * pdf, docx, txt, json, csv, etc.
 2. Answer questions by searching relevant data. Mention the source of the answer and its confidence level.
 
+## Target of Agent
+1. Leverage LLM to automate tasks
+
 
 ## Data Preparation 
 ### Extraction and Parsing
@@ -27,18 +30,18 @@ This repo is to summarize relevant pages and repos that are related to RAG
 || SmolDocling OCR | [github](https://github.com/AIAnytime/SmolDocling-OCR-App)
 || EasyOCR | [github](https://github.com/JaidedAI/EasyOCR)
 || LatexOCR| [github](https://github.com/lukas-blecher/LaTeX-OCR)
-|others| data juicer by alibaba| [github](https://github.com/modelscope/data-juicer)
-|| DocETL | [github](https://github.com/ucbepic/docetl) |
+|| surya | [github](https://github.com/datalab-to/surya) | Surya is an OCR toolkit supporting 90+ languages, with layout analysis, reading order, table, and LaTeX recognition
+| format related|  maker | [github](https://github.com/datalab-to/marker) | converts documents to markdown, JSON, chunks, and HTML quickly and accurately.
+| LLM-based| DocETL | [github](https://github.com/ucbepic/docetl) | An interactive UI for iterative prompt engineering and pipeline development, and a Python package
 || LangExtract by Google | [github](https://github.com/google/langextract)
-|| deepdoc | [github](https://github.com/infiniflow/ragflow/tree/main/deepdoc)
-|| PP-StructreV3 | [official page](http://www.paddleocr.ai/main/en/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html), [arxiv](https://arxiv.org/abs/2210.05391)
+|| data juicer by alibaba| [github](https://github.com/modelscope/data-juicer) | Data-Juicer is a one-stop system to process text and multimodal data for and with foundation models (typically LLMs). 
+|| deepdoc | [github](https://github.com/infiniflow/ragflow/tree/main/deepdoc) | DeepDoc addresses the challenge of accurately analyzing diverse documents with varying formats and retrieval needs through its two components: vision and parser.
+|others| PP-StructreV3 | [official page](http://www.paddleocr.ai/main/en/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html), [arxiv](https://arxiv.othersorg/abs/2210.05391)
 || unstructrued | [github](https://github.com/Unstructured-IO/unstructured)
-|| docling | [github](https://github.com/docling-project/docling)
-|| maker | [github](https://github.com/datalab-to/marker)
-|| nougat | [github](https://github.com/facebookresearch/nougat)
-|| surya | [github](https://github.com/datalab-to/surya)
-|| LayoutLMv3 | [github](https://github.com/microsoft/unilm/tree/master/layoutlmv3)
-|| DocLayout-YOLO| [github](https://github.com/opendatalab/DocLayout-YOLO) 
+|| docling | [github](https://github.com/docling-project/docling) | Docling parses diverse documents with advanced PDF, OCR, and multimodal support, offers flexible exports and local processing, and integrates seamlessly with major AI frameworks via CLI.
+|| nougat | [github](https://github.com/facebookresearch/nougat) | the academic document PDF parser that understands LaTeX math and tables.
+|| LayoutLMv3 | [github](https://github.com/microsoft/unilm/tree/master/layoutlmv3) | 
+|| DocLayout-YOLO| [github](https://github.com/opendatalab/DocLayout-YOLO) | layout detection model for diverse documents, based on YOLO-v10
 || RapidTable| [github](https://github.com/RapidAI/RapidTable) |
 || DataFlow| [github](https://github.com/OpenDCAI/DataFlow), [document](https://opendcai.github.io/DataFlow-Doc/zh/) | Data-centric AI system
 
