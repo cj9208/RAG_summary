@@ -37,6 +37,7 @@ This repo is to summarize relevant pages and repos that are related to RAG
 || LangExtract by Google | [github](https://github.com/google/langextract)
 || data juicer by alibaba| [github](https://github.com/modelscope/data-juicer) | Data-Juicer is a one-stop system to process text and multimodal data for and with foundation models (typically LLMs). 
 || deepdoc | [github](https://github.com/infiniflow/ragflow/tree/main/deepdoc) | DeepDoc addresses the challenge of accurately analyzing diverse documents with varying formats and retrieval needs through its two components: vision and parser.
+|| easy-dataset | [github](https://github.com/ConardLi/easy-dataset)|Create fine-tuning datasets for Large Language Models (LLMs)
 |others| PP-StructreV3 | [official page](http://www.paddleocr.ai/main/en/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html), [arxiv](https://arxiv.othersorg/abs/2210.05391)
 || unstructrued | [github](https://github.com/Unstructured-IO/unstructured)
 || docling | [github](https://github.com/docling-project/docling) | Docling parses diverse documents with advanced PDF, OCR, and multimodal support, offers flexible exports and local processing, and integrates seamlessly with major AI frameworks via CLI.
