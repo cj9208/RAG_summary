@@ -56,8 +56,10 @@ This repo is to summarize relevant pages and repos that are related to RAG
 ## Framework and LLM related
 | Tool/Project | Links | Description |
 |--------------|-------| -------|
-| langgraph | [api](https://langchain-ai.github.io/langgraph/concepts/low_level/)
-| autogen by Microsoft | [github](https://github.com/microsoft/autogen)
+| langgraph | [api](https://langchain-ai.github.io/langgraph/concepts/low_level/) | focus on workflow of agents
+| autogen by Microsoft | [github](https://github.com/microsoft/autogen) | focus on interaction of agents 
+| pydantic AI| [doc](https://docs.pydantic.dev/latest/) | lightweight framework for agent
+| n8n | [oficial page](https://n8n.io/) | graphical workflow engine
 | anyLLM | [github](https://github.com/mozilla-ai/any-llm)
 | oneapi | [github](https://github.com/songquanpeng/one-api)
 | openai agent python| [github](https://github.com/openai/openai-agents-python)
