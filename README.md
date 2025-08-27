@@ -32,6 +32,7 @@ This repo is to summarize relevant pages and repos that are related to RAG
 || LatexOCR| [github](https://github.com/lukas-blecher/LaTeX-OCR)
 || surya | [github](https://github.com/datalab-to/surya) | Surya is an OCR toolkit supporting 90+ languages, with layout analysis, reading order, table, and LaTeX recognition
 | format related|  maker | [github](https://github.com/datalab-to/marker) | converts documents to markdown, JSON, chunks, and HTML quickly and accurately.
+|| markitdown by Microsoft | [github](https://github.com/microsoft/markitdown) | convert pdf, ppt and etc to markdown 
 | LLM-based| DocETL | [github](https://github.com/ucbepic/docetl) | An interactive UI for iterative prompt engineering and pipeline development, and a Python package
 || LangExtract by Google | [github](https://github.com/google/langextract)
 || data juicer by alibaba| [github](https://github.com/modelscope/data-juicer) | Data-Juicer is a one-stop system to process text and multimodal data for and with foundation models (typically LLMs). 
