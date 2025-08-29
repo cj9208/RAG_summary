@@ -2,13 +2,14 @@
 
 This repo is to summarize relevant pages and repos that are related to RAG
 
-## Target or Object of RAG
+## Target or Object
+### RAG
 1. Deal with various types of data
     * text, image, video, audio, etc.
     * pdf, docx, txt, json, csv, etc.
 2. Answer questions by searching relevant data. Mention the source of the answer and its confidence level.
 
-## Target of Agent
+### Agent
 1. Leverage LLM to automate tasks
 
 
@@ -50,7 +51,7 @@ This repo is to summarize relevant pages and repos that are related to RAG
 
 
 ### Evaluation
-* Dingo, [github](https://github.com/MigoXLab/dingo)
+* Dingo, [github](https://github.com/MigoXLab/dingo), data quality evaluation tool 
 
 
 ## Framework and LLM related
@@ -61,14 +62,13 @@ This repo is to summarize relevant pages and repos that are related to RAG
 | pydantic AI| [doc](https://docs.pydantic.dev/latest/) | lightweight framework for agent
 | n8n | [oficial page](https://n8n.io/) | graphical workflow engine
 | anyLLM | [github](https://github.com/mozilla-ai/any-llm)
-| oneapi | [github](https://github.com/songquanpeng/one-api)
-| openai agent python| [github](https://github.com/openai/openai-agents-python)
+| oneapi | [github](https://github.com/songquanpeng/one-api) | unified API for multiple LLM providers
+| openai agent python SDK| [github](https://github.com/openai/openai-agents-python)
 |GenAI Processors Library by Google | [github](https://github.com/google-gemini/genai-processors) | The concept of Processor provides a common abstraction for Gemini model calls and increasingly complex behaviors built around them, accommodating both turn-based interactions and live streaming.
 | Qwen Agent | [github](https://github.com/QwenLM/Qwen-Agent)
 | WebAgent by Tongyi Lab | [github](https://github.com/Alibaba-NLP/WebAgent)
 | open deep research by langchain| [github](https://github.com/langchain-ai/open_deep_research)
 | ragflow | [github](https://github.com/infiniflow/ragflow)
-|BMad-Method |[github](https://github.com/bmadcode/BMAD-METHOD) | A Universal AI Agent Framework
 |tooluse| [github](https://github.com/BeautyyuYanli/tooluser) | Enable tool-use ability for any LLM model (DeepSeek V3/R1, etc.) 
 | pocketflow | [github](https://github.com/The-Pocket/PocketFlow) | Pocket Flow is a 100-line minimalist LLM framework
 
@@ -79,25 +79,28 @@ This repo is to summarize relevant pages and repos that are related to RAG
 |Date  | Tool/Project | Links | Description |
 |------|------------|-------| -------|
 |2410 | LightRAG | [github](https://github.com/HKUDS/LightRAG)
-| 2507 | DeepSieve | [Arixv](https://arxiv.org/abs/2507.22050)
-| 2506 | Agentic large language models improve retrieval-based radiology question answering | [Arxiv](https://arxiv.org/pdf/2508.00743)
-| 2507 | SemRAG | [arxiv](https://arxiv.org/pdf/2507.21110)
 | 2410 | RAG-Anything | [github](https://github.com/HKUDS/RAG-Anything)
+| 2404| graphRAG | [github](https://github.com/microsoft/graphrag)
+| 2507 | DeepSieve | [Arixv](https://arxiv.org/abs/2507.22050)
+| 2507 | SemRAG | [arxiv](https://arxiv.org/pdf/2507.21110)
 |  | MemAgent | [github](https://github.com/BytedTsinghua-SIA/MemAgent)
-| | graphRAG | [github](https://github.com/microsoft/graphrag)
 | 2506 | memvid | [github](https://github.com/Olow304/memvid) | Memvid compresses an entire knowledge base into MP4 files while keeping millisecond-level semantic search
 || SemHash | [github](https://github.com/MinishLab/semhash) | SemHash is a lightweight and flexible tool for deduplicating datasets, filtering outliers, and finding representative samples using semantic similarity
 
 
+## Monitor and Evalution
+| Tool/Project | Links | Description |
+|--------------|-------| -------|
+langfuse | [doc](https://langfuse.com/docs) | Observability, Pompot Optimization, and Evalution
+
+
 ## Courses and Learning Resouces
-* [RAG Challenge Winner Solution](https://github.com/IlyaRice/RAG-Challenge-2) |
+* [RAG Challenge Winner Solution](https://github.com/IlyaRice/RAG-Challenge-2) 
 * [Huggingface Daily papers](https://huggingface.co/papers/week/2025-W30)
 * [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
 * [gemini fullstack langgraph quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart)
 * [graph-rag-agent](https://github.com/1517005260/graph-rag-agent) 
     * combine graphrag and deepresearch
-* [graphrag-more](https://github.com/guoyao/graphrag-more)
-    * add support for other LLM (better for using one-api or any-LLM as in graph-rag-agent)
 * [Agents Towards Production](https://github.com/NirDiamant/agents-towards-production)
 * [deep research with Gemini](https://github.com/u14app/deep-research)
 * [Microsoft AI and ML Engineering Professional Certificate](https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering#courses)
