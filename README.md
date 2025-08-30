@@ -32,12 +32,17 @@ Enhance LLM with external data
 
 ### Agent
 Autonomous system that uses an underlying large language model (LLM) to perform complex, multi-step tasks to achieve a specific goal.
-1. e.g. Deep research, uses a series of iterative and systematic steps to autonomously conduct in-depth research on a given topic.
+1. Key characteritics
+   * goal oriented
+   * reasoning and planning
+   * tool use
+   * execution and iteration
+2. e.g. Deep research, use a series of iterative and systematic steps to autonomously conduct in-depth research on a given topic.
     * planning and question generation
     * information retrieval
     * synthesis and analyze (including evaluation, if the retrieval is not satisfied, the agent may go to step 1 again) 
     * report generation
-2. Deployment is similar to RAG
+3. Deployment is similar to RAG
 
 
 ## Data Preparation 
