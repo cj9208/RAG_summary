@@ -19,13 +19,25 @@ This repo is to summarize relevant pages and repos that are related to RAG and A
 
 ## Target or Object
 ### RAG
-1. Deal with various types of data
+Enhance LLM with external data
+1. Data
     * text, image, video, audio, etc.
     * pdf, docx, txt, json, csv, etc.
-2. Answer questions by searching relevant data. Mention the source of the answer and its confidence level.
+2. Algorithm, i.e. how to do the retrival and generation
+    * e.g. graphRAG, generate a knowledge graph to help answer global questions
+3. Deployment 
+    * LLM (API or local deployment)
+    * database
+    * monitoring and evaluation
 
 ### Agent
-1. Leverage LLM to automate tasks
+Autonomous system that uses an underlying large language model (LLM) to perform complex, multi-step tasks to achieve a specific goal.
+1. e.g. Deep research, uses a series of iterative and systematic steps to autonomously conduct in-depth research on a given topic.
+    * planning and question generation
+    * information retrieval
+    * synthesis and analyze (including evaluation, if the retrieval is not satisfied, the agent may go to step 1 again) 
+    * report generation
+2. Deployment is similar to RAG
 
 
 ## Data Preparation 
