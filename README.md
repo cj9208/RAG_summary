@@ -115,7 +115,8 @@ Autonomous system that uses an underlying large language model (LLM) to perform 
 | 2404 | graphRAG     | [github](https://github.com/microsoft/graphrag)         |
 | 2507 | DeepSieve    | [Arixv](https://arxiv.org/abs/2507.22050)               |
 | 2507 | SemRAG       | [arxiv](https://arxiv.org/pdf/2507.21110)               |
-|      | MemAgent     | [github](https://github.com/BytedTsinghua-SIA/MemAgent) |
+|  2507    | MemAgent   by ByteDance  | [github](https://github.com/BytedTsinghua-SIA/MemAgent) | superb long-context capabilities, able to extrapolate from an 8K context to a 3.5M QA task with performance loss < 5% and achieves 95%+ accuracy in 512K RULER test.
+| 2410 | memary| [github](https://github.com/kingjulio8238/Memary)
 | 2506 | memvid       | [github](https://github.com/Olow304/memvid)             | Memvid compresses an entire knowledge base into MP4 files while keeping millisecond-level semantic search                                               |
 |      | SemHash      | [github](https://github.com/MinishLab/semhash)          | SemHash is a lightweight and flexible tool for deduplicating datasets, filtering outliers, and finding representative samples using semantic similarity |
 
