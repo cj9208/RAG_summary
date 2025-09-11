@@ -98,6 +98,7 @@ Autonomous system that uses an underlying large language model (LLM) to perform 
 | oneapi                             | [github](https://github.com/songquanpeng/one-api)                   | unified API for multiple LLM providers                                                                                                                                                             |
 | openai agent python SDK            | [github](https://github.com/openai/openai-agents-python)            |
 | GenAI Processors Library by Google | [github](https://github.com/google-gemini/genai-processors)         | The concept of Processor provides a common abstraction for Gemini model calls and increasingly complex behaviors built around them, accommodating both turn-based interactions and live streaming. |
+| UltraRAG by Tsinghua University| [github](https://github.com/OpenBMB/UltraRAG) | Less Code, Lower Barrier, Faster Deployment. Can build high-performance RAG with just a few dozen lines of code
 | Qwen Agent                         | [github](https://github.com/QwenLM/Qwen-Agent)                      |
 | WebAgent by Tongyi Lab             | [github](https://github.com/Alibaba-NLP/WebAgent)                   |
 | open deep research by langchain    | [github](https://github.com/langchain-ai/open_deep_research)        |
