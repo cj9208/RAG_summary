@@ -1,0 +1,3 @@
+| Tool/Project | Links                                       | Description                                                                                                            
+| ------------ | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ollm         | [github](https://github.com/Mega4alik/ollm) | It enables running models like gpt-oss-20B, qwen3-next-80B or Llama-3.1-8B-Instruct on 100k context using ~$200 consumer GPU with 8GB VRAM. No quantization is used—only fp16/bf16 precision. |
