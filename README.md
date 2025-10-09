@@ -102,6 +102,7 @@ Autonomous system that uses an underlying large language model (LLM) to perform 
 
 ## Prompt
 * [MineContext](https://github.com/volcengine/MineContext)
+* [Context Engineering Template](https://github.com/coleam00/context-engineering-intro)
 
 
 ## Framework for LLM and Agent
@@ -143,6 +144,9 @@ Autonomous system that uses an underlying large language model (LLM) to perform 
 |      | SemHash      | [github](https://github.com/MinishLab/semhash)          | SemHash is a lightweight and flexible tool for deduplicating datasets, filtering outliers, and finding representative samples using semantic similarity |
 | 2509 | Lexical Diversity-aware Relevance Assessment for RAG | [acl](https://aclanthology.org/2025.acl-long.1346.pdf)
 | 2508 |SynRewrite | [arxiv]([SynRewrite](https://arxiv.org/abs/2509.22325))
+| keep udating | Mem0 | [github](https://github.com/mem0ai/mem0) | Enhance AI assistants and agents with an intelligent memory layer, enabling personalized interactions. Github Trend #1
+| 2510 | Scalable In-context Ranking with Generative Models | [arxiv](https://arxiv.org/pdf/2510.05396v2) | information retrieval through in-context ranking, not vector similarity
+| 2411 | ColiVara | [github](https://github.com/tjmlabs/ColiVara) | Use visual embeddings, so no text extraction step
 
 
 ## ML/AIOps (Deployment, Monitoring, Evaluation)
