@@ -2,12 +2,15 @@
 
 This repo is to summarize relevant pages and repos that are related to RAG and Agent.
 
+- [Overview](#overview)
 - [Target or Object](#target-or-object)
   - [RAG](#rag)
   - [Agent](#agent)
 - [Data Preparation](#data-preparation)
+  - [Generation](#generation)
   - [Extraction and Parsing](#extraction-and-parsing)
   - [Evaluation](#evaluation)
+- [Prompt](#prompt)
 - [Framework for LLM and Agent](#framework-for-llm-and-agent)
 - [Algorithms and Implementations](#algorithms-and-implementations)
 - [ML/AIOps (Deployment, Monitoring, Evaluation)](#mlaiops-deployment-monitoring-evaluation)
@@ -15,7 +18,17 @@ This repo is to summarize relevant pages and repos that are related to RAG and A
 - [Reference](#reference)
 
 
+## Overview
 
+Components of RAG and Agent
+* Retrieval
+  * Data preparation (parsing, extraction from all kinds of data)
+  * 
+* Generation
+* Evaluation
+* Deployment
+* Monitoring
+* Workflow
 
 ## Target or Object
 ### RAG
@@ -46,9 +59,13 @@ Autonomous system that uses an underlying large language model (LLM) to perform 
 
 
 ## Data Preparation 
+### Generation
+* [GraphGEN ](https://github.com/idea-iitd/graphgen)
+* [Synthetic Data Vault (SDV)](https://github.com/sdv-dev/SDV)
+* [Generative Data Refinement by DeepMind](https://arxiv.org/abs/2509.08653v1)
 ### Extraction and Parsing
 
-| format /method | Tool/Project                | Links                                                                                                                                                     | Description                                                                                                                                                                                |
+| format /method | Tool/Project                | Links   | Description                                                                                                                                                                                |
 | -------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | pdf            | PyMuPDF                     | [github](https://github.com/pymupdf/PyMuPDF)                                                                                                              | can read fonts                                                                                                                                                                             |
 |                | MinerU                      | [github](https://github.com/opendatalab/MinerU)                                                                                                           | using vlm to help extract tables                                                                                                                                                           |
@@ -57,8 +74,8 @@ Autonomous system that uses an underlying large language model (LLM) to perform 
 |                | pypdf                       | [github](https://github.com/py-pdf/pypdf)                                                                                                                 |
 | OCR            | Mistral OCR                 | [offical page](https://mistral.ai/news/mistral-ocr)                                                                                                       |
 |                | olm OCR                     | [github](https://github.com/allenai/olmocr)                                                                                                               |
-|                | PaddleOCR                   | [github](https://github.com/PaddlePaddle/PaddleOCR)                                                                                                       |
-|                | dots.ocr                    | [github](https://github.com/rednote-hilab/dots.ocr)                                                                                                       |
+|                | PaddleOCR                   | [github](https://github.com/PaddlePaddle/PaddleOCR)    | from Baidu, updated to V5                                                                                                   |
+|                | dots.ocr             | [github](https://github.com/rednote-hilab/dots.ocr) | from RedNote                                                                                                       |
 |                | GOT-OCR                     | [github](https://github.com/Ucas-HaoranWei/GOT-OCR2.0)                                                                                                    |
 |                | SmolDocling OCR             | [github](https://github.com/AIAnytime/SmolDocling-OCR-App)                                                                                                |
 |                | EasyOCR                     | [github](https://github.com/JaidedAI/EasyOCR)                                                                                                             |
@@ -80,10 +97,12 @@ Autonomous system that uses an underlying large language model (LLM) to perform 
 |                | RapidTable                  | [github](https://github.com/RapidAI/RapidTable)                                                                                                           |
 |                | DataFlow                    | [github](https://github.com/OpenDCAI/DataFlow), [document](https://opendcai.github.io/DataFlow-Doc/zh/)                                                   | Data-centric AI system                                                                                                                                                                     |
 
-
-
 ### Evaluation
 * Dingo, [github](https://github.com/MigoXLab/dingo), data quality evaluation tool 
+
+## Prompt
+* [MineContext](https://github.com/volcengine/MineContext)
+* [Context Engineering Template](https://github.com/coleam00/context-engineering-intro)
 
 
 ## Framework for LLM and Agent
@@ -101,6 +120,7 @@ Autonomous system that uses an underlying large language model (LLM) to perform 
 | UltraRAG by Tsinghua University| [github](https://github.com/OpenBMB/UltraRAG) | Less Code, Lower Barrier, Faster Deployment. Can build high-performance RAG with just a few dozen lines of code
 | Qwen Agent                         | [github](https://github.com/QwenLM/Qwen-Agent)                      |
 | WebAgent by Tongyi Lab             | [github](https://github.com/Alibaba-NLP/WebAgent)                   |
+| Tongyi DeepResearch| [blog](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/), [github](https://github.com/Alibaba-NLP/DeepResearch)
 | open deep research by langchain    | [github](https://github.com/langchain-ai/open_deep_research)        |
 | ragflow                            | [github](https://github.com/infiniflow/ragflow)                     |
 | tooluse                            | [github](https://github.com/BeautyyuYanli/tooluser)                 | Enable tool-use ability for any LLM model (DeepSeek V3/R1, etc.)                                                                                                                                   |
@@ -122,6 +142,11 @@ Autonomous system that uses an underlying large language model (LLM) to perform 
 | 2410 | memary| [github](https://github.com/kingjulio8238/Memary)
 | 2506 | memvid       | [github](https://github.com/Olow304/memvid)             | Memvid compresses an entire knowledge base into MP4 files while keeping millisecond-level semantic search                                               |
 |      | SemHash      | [github](https://github.com/MinishLab/semhash)          | SemHash is a lightweight and flexible tool for deduplicating datasets, filtering outliers, and finding representative samples using semantic similarity |
+| 2509 | Lexical Diversity-aware Relevance Assessment for RAG | [acl](https://aclanthology.org/2025.acl-long.1346.pdf)
+| 2508 |SynRewrite | [arxiv]([SynRewrite](https://arxiv.org/abs/2509.22325))
+| keep udating | Mem0 | [github](https://github.com/mem0ai/mem0) | Enhance AI assistants and agents with an intelligent memory layer, enabling personalized interactions. Github Trend #1
+| 2510 | Scalable In-context Ranking with Generative Models | [arxiv](https://arxiv.org/pdf/2510.05396v2) | information retrieval through in-context ranking, not vector similarity
+| 2411 | ColiVara | [github](https://github.com/tjmlabs/ColiVara) | Use visual embeddings, so no text extraction step
 
 
 ## ML/AIOps (Deployment, Monitoring, Evaluation)
@@ -162,6 +187,11 @@ d. Automated Retraining
 * [Agents Towards Production](https://github.com/NirDiamant/agents-towards-production)
 * [deep research with Gemini](https://github.com/u14app/deep-research)
 * [Microsoft AI and ML Engineering Professional Certificate](https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering#courses)
+* [RAG Time: Ultimate Guide to Mastering RAG](https://github.com/microsoft/rag-time)
+* [RAGHub](https://github.com/Andrew-Jang/RAGHub)
+* [Engineering at Anthropic](https://www.anthropic.com/engineering)
+* [How is NASA Building a People Knowledge Graph with LLMs and Memgraph](https://www.crowdcast.io/c/how-is-nasa-building-a-people-knowledge-graph-with-llms-and-memgraph)
+* [From Search to Reasoning: A Five-Level RAG Capability Framework for Enterprise Data](https://www.arxiv.org/pdf/2509.21324)
 
 
 ## Reference
@@ -175,4 +205,5 @@ d. Automated Retraining
 | A Survey of self-evolving agents: on path to Artificial Super Intelligence | [arxiv](https://arxiv.org/pdf/2507.21046)        
 | A Survey on AgentOps: Categorization, Challenges, and Future Directions | [arxiv](https://arxiv.org/pdf/2508.02121v1)        
 | 5-Day Gen AI Intensive Course with Google | [link](https://www.kaggle.com/learn-guide/5-day-genai?utm_medium=email&utm_source=gamma&utm_campaign=learn-5daygenai)      
-| What makes Claude Code so damn good  | [link](https://minusx.ai/blog/decoding-claude-code/#31-llm-search---rag-based-search)                                                                                                                                                                                                                                                                                                                                                            |
+| What makes Claude Code so damn good  | [link](https://minusx.ai/blog/decoding-claude-code/#31-llm-search---rag-based-search)        
+|awesome-RAG| [github](https://github.com/liunian-Jay/Awesome-RAG)                                                                                                                                                                                                                                                                                                                                                     |
