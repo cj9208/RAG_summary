@@ -6,9 +6,8 @@ This repo is to summarize relevant pages and repos that are related to RAG and A
 1. data preparation
 2. framework
 3. prompt engineering
-4. deployment
-5. AIops
-6. learning materials
+4. deployment and operations
+5. learning materials
 
 
 

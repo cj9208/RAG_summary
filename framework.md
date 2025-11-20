@@ -10,7 +10,8 @@
 |AutoAgent by HKUDS| [github](https://github.com/HKUDS/AutoAgent) | fully-Automated and highly Self-Developing framework that enables users to create and deploy LLM agents through Natural Language Alone
 | n8n                                | [oficial page](https://n8n.io/)                                     | graphical workflow engine                                                                                                                                                                          |
 | anyLLM                             | [github](https://github.com/mozilla-ai/any-llm)                     |
-| oneapi                             | [github](https://github.com/songquanpeng/one-api)                   | unified API for multiple LLM providers                                                                                                                                                             |
+| oneapi                             | [github](https://github.com/songquanpeng/one-api)                   | unified API for multiple LLM providers    |
+|AI gateway| [github](https://github.com/Portkey-AI/gateway) | ast, reliable & secure routing to 1600+ language, vision, audio, and image models
 | openai agent python SDK            | [github](https://github.com/openai/openai-agents-python)            |
 | GenAI Processors Library by Google | [github](https://github.com/google-gemini/genai-processors)         | The concept of Processor provides a common abstraction for Gemini model calls and increasingly complex behaviors built around them, accommodating both turn-based interactions and live streaming. |
 | UltraRAG by Tsinghua University| [github](https://github.com/OpenBMB/UltraRAG) | Less Code, Lower Barrier, Faster Deployment. Can build high-performance RAG with just a few dozen lines of code
@@ -20,10 +21,15 @@
 | open deep research by langchain    | [github](https://github.com/langchain-ai/open_deep_research)        |
 | ragflow                            | [github](https://github.com/infiniflow/ragflow)                     |
 | tooluse                            | [github](https://github.com/BeautyyuYanli/tooluser)                 | Enable tool-use ability for any LLM model (DeepSeek V3/R1, etc.)                                                                                                                                   |
-| pocketflow                         | [github](https://github.com/The-Pocket/PocketFlow)                  | Pocket Flow is a 100-line minimalist LLM framework                                                                                                                                                 |
-
-
-
+| pocketflow                         | [github](https://github.com/The-Pocket/PocketFlow)                  | Pocket Flow is a 100-line minimalist LLM framework |
+| valuecell                        | [offical page](https://valuecell.ai/)                | A community-driven, multi-agent platform for
+financial applications.    |
+|agent lightning| [github](https://github.com/microsoft/agent-lightning) | 
+|Macro search agent|[github](https://github.com/AIDC-AI/Marco-Search-Agent| This initial release includes two challenging benchmarks for cutting-edge agent systems——DeepWideSearch and HSCodeComp benchmarks
+|eigent|[github](https://github.com/eigent-ai/eigent)| world’s first Multi-agent Workforce desktop application, empowering you to build, manage, and deploy a custom AI workforce that can turn your most complex workflows into automated tasks.
+|deepcode| [github](https://github.com/HKUDS/DeepCode) 
+|awesome RAG evaluation|[github](https://github.com/YHPeter/Awesome-RAG-Evaluation)
+|localAI| [github](https://github.com/mudler/LocalAI) | free, Open Source OpenAI alternative
 
 ## Algorithms and Implementations
 | Date | Tool/Project | Links                                                   | Description                                                                                                                                             |

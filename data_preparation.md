@@ -35,10 +35,27 @@
 |                | LayoutLMv3                  | [github](https://github.com/microsoft/unilm/tree/master/layoutlmv3)                                                                                       |
 |                | DocLayout-YOLO              | [github](https://github.com/opendatalab/DocLayout-YOLO)                                                                                                   | layout detection model for diverse documents, based on YOLO-v10                                                                                                                            |
 |                | RapidTable                  | [github](https://github.com/RapidAI/RapidTable)                                                                                                           |
-|                | DataFlow                    | [github](https://github.com/OpenDCAI/DataFlow), [document](https://opendcai.github.io/DataFlow-Doc/zh/)                                                   | Data-centric AI system                                                                                                                                                                     |
+|                | DataFlow                    | [github](https://github.com/OpenDCAI/DataFlow), [document](https://opendcai.github.io/DataFlow-Doc/zh/)                                                   | Data-centric AI system   |
+| | docTR | [github](https://github.com/mindee/doctr) 
 
 
 
 ### Evaluation
 * Dingo, [github](https://github.com/MigoXLab/dingo), data quality evaluation tool 
 
+
+### to be classified
+* [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze), first agentic LLM for autonomous data science
+* [pipet](https://github.com/bjesus/pipet), web scrper
+* [Scraperr](https://github.com/jaypyles/Scraperr)
+* [Skill Seeker](https://github.com/yusufkaraaslan/Skill_Seekers), Skill Seeker is an automated tool that transforms documentation websites, GitHub repositories, and PDF files into production-ready Claude AI skills. 
+* [deepseek ocr app](https://github.com/rdumasia303/deepseek_ocr_app), Deepseek OCR - React + FastAPI
+* [FastAPI guard](https://github.com/rennf93/fastapi-guard)
+* [toon](https://github.com/toon-format/toon), token-oriented object notation
+* [ContextGem](https://github.com/shcherbak-ai/contextgem), ContextGem is a free, open-source LLM framework that makes it radically easier to extract structured data and insights from documents — with minimal code.
+* [json repair](https://github.com/mangiucugna/json_repair/)
+* [cocoIndex](https://github.com/cocoindex-io/cocoindex), CocoIndex makes it effortless to transform data with AI, and keep source data and target in sync.
+* [dasel](https://github.com/TomWright/dasel), a command-line tool and library for querying, modifying, and transforming data structures such as JSON, YAML, TOML, XML, and CSV.
+* [katana](https://github.com/projectdiscovery/katana), next-generation crawling and spidering framework
+* [semtools](https://github.com/run-llama/semtools), A collection of high-performance CLI tools for document processing and semantic search, built with Rust for speed and reliability.
+* [trafilature](https://github.com/adbar/trafilatura), Discover and Extract Text Data on the Web

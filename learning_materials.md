@@ -15,6 +15,17 @@
 * [Engineering at Anthropic](https://www.anthropic.com/engineering)
 * [How is NASA Building a People Knowledge Graph with LLMs and Memgraph](https://www.crowdcast.io/c/how-is-nasa-building-a-people-knowledge-graph-with-llms-and-memgraph)
 * [From Search to Reasoning: A Five-Level RAG Capability Framework for Enterprise Data](https://www.arxiv.org/pdf/2509.21324)
+* [awesine agents](https://github.com/kyrolabs/awesome-agents)
+* [AI engineering hub](https://github.com/patchy631/ai-engineering-hub)
+* [hello agent](https://datawhalechina.github.io/hello-agents/#/)
+* [all in rag](https://github.com/datawhalechina/all-in-rag)
+* [claude code infrastructure showcase](https://github.com/diet103/claude-code-infrastructure-showcase), A curated reference library of production-tested Claude Code infrastructure.
+* [awesome code agent](https://github.com/sorrycc/awesome-code-agents)
+* [deeptoai rag](https://rag.deeptoai.com/)
+* [500 AI agent projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)
+* [AI engineering academy](https://aiengineering.academy/PromptEngineering/)
+
+
 
 
 ## Reference
